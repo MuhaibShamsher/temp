@@ -1,0 +1,28 @@
+.titleCard {
+    margin-bottom: 1.125rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-heading-color);
+    ;
+}
+
+.barContainer {
+    width: 100%;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    background: var(--secondary-background-color);
+    padding-inline: 4em;
+    padding-top: 1em;
+
+}
+
+.barContainer canvas {
+    width: 80% !important;
+    height: 100% !important;
+
+}

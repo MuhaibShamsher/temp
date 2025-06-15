@@ -1,0 +1,121 @@
+.container {
+  background-color: var(--background-color);
+  width: 100%;
+  padding-bottom: 1.7rem;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #111828;
+  padding: 1rem 1.5rem;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--text-color);
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-weight: bolder;
+}
+
+.dot {
+  margin: 0 0.5rem;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  color: var(--text-color);
+}
+
+.main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .main {
+    grid-template-columns: 1fr 300px;
+  }
+}
+
+.cardContent {
+  display: grid;
+  gap: 1rem;
+}
+
+.alertTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--primary-heading-color);
+}
+
+.alertDescription {
+  color: var(--text-color);
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+.badge {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.referenceStandards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.accordionTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  color: var(--text-color);
+}
+
+.accordionContent {
+  color: var(--text-color);
+  margin-bottom: 0.4rem;
+}

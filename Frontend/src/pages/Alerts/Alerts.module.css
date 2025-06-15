@@ -1,0 +1,51 @@
+.container {
+  height: 80vh;
+  width: 100%;
+}
+.noDataIcon {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.noDataIcon p {
+  font-size: 28px;
+  font-family: var(--primary-font-reg);
+  color: var(--primary-heading-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+  color: var(--primary-heading-color);
+}
+.tableContainer{
+  background: #111828;
+  border-radius: 12px;
+  padding: 1em;
+}

@@ -1,0 +1,40 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+.header {
+  background: var(--text-color);
+  color: black;
+}
+.header tr th {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.header tr {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.tableBody tr td {
+  padding: 10px 5px;
+  text-align: center;
+}
+.mainTable {
+  width: 100%;
+}
+.Data {
+  color: var(--primary-heading-color);
+}
+
+.dropdown {
+  width: 120px !important;
+}
+
+@media screen and (max-width: 991) {
+  .tableBody {
+    width: auto;
+    overflow: scroll;
+  }
+}

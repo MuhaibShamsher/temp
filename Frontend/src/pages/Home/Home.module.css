@@ -1,0 +1,16 @@
+.home {
+  width: 100%;
+  margin: 1em auto;
+  row-gap: 20px;
+}
+.home .col {
+  padding: 0;
+}
+.columnWidth {
+  width: 22.666667%;
+}
+@media screen and (max-width: 768px) {
+  .columnWidth {
+    width: 100%;
+  }
+}

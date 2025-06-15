@@ -1,0 +1,23 @@
+.badge {
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  color: var(--white-color);
+  font-weight: bold;
+  display: inline-block;
+}
+
+.high {
+  background-color: red;
+}
+
+.medium {
+  background-color: yellow;
+}
+
+.low {
+  background-color: green;
+}
+
+.default {
+  background-color: var(--gray-color);
+}

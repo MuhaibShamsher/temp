@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: #f2eeea;
+  --background-color: #0c0a07;
+  --main-color: #000000;
+  --sidebar-color: #111828;
+  --primary-color: #00ffd2;
+  --secondary-color: #5acfbb;
+  --accent-color: #0f8187;
+
+  --linearPrimarySecondary: linear-gradient(#00ffd2, #5acfbb);
+  --linearPrimaryAccent: linear-gradient(#00ffd2, #0f8187);
+  --linearSecondaryAccent: linear-gradient(#5acfbb, #0f8187);
+  --radialPrimarySecondary: radial-gradient(#00ffd2, #5acfbb);
+  --radialPrimaryAccent: radial-gradient(#00ffd2, #0f8187);
+  --radialSecondaryAccent: radial-gradient(#5acfbb, #0f8187);
+
+  --logo-color: #a501a9;
+
+  /* --main-color: ;
+  --primary-color: #2a2d34;
+  --secondary-color: #151515;
+  --text-color: #7f00ab; */
+  --primary-heading-color: white;
+  --sidebar-background-color: #232225;
+  --navbar-background-color: #232225;
+  --white-color: white;
+  --secondary-background-color: #111828;
+  --secondary-bg-color: #192033;
+  --dark-gray-color: gray;
+  --gray-color: #cccccc;
+  --logout-btn-color: #020d25;
+  --render-para: #b1b3b8;
+
+  --primary-font-new: "Russo One, sans-serif";
+  --primary-font-reg: "poppin-regular";
+  --primary-font-med: "poppin-medium";
+  --primary-font-bold: "poppin-bold";
+  --background-outlet: linear-gradient(to right bottom, #31343c, #31343c);
+  --black-color: black;
+  --purple-color: rgb(233, 136, 233);
+  --gray-color: #848c94;
+  --menu-hover-active: #a856f8;
+}
+
+.nav-pills .nav-link.active {
+  /* Bcoz its not working in moddule,css file tried so much :((((( */
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: rgb(255, 255, 255) !important;
+  border-left: 3px solid white;
+}
+body {
+  font-family: var(--primary-font-reg);
+  background-color: var(--background-color);
+}
+a,
+ul {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 6px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-color);
+}
+
+*::-webkit-scrollbar-track {
+  background-color: var(--gray-color);
+  border-radius: 12px;
+}
+
+@font-face {
+  font-family: "poppin-regular";
+  src: url("./assets//fonts//Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppin-medium";
+  src: url("./assets//fonts//Poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppin-bold";
+  src: url("./assets//fonts//Poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Russo One", sans-serif;
+  src: url("./assets//fonts//Russo_One/RussoOne-Regular.ttf") format("truetype");
+}

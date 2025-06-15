@@ -1,0 +1,19 @@
+/* index.module.css */
+.show {
+  display: block !important;
+  padding: 0;
+}
+
+.hide {
+  display: none !important;
+}
+
+.margin {
+  margin-right: 0 !important;
+  /* position: fixed; */
+}
+.marginPadding {
+  margin: 0 auto;
+  padding: 4em 1em;
+  background-image: var(--background-outlet);
+}

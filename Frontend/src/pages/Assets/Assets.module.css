@@ -1,0 +1,9 @@
+.heading {
+  color: var(--primary-heading-color);
+}
+.tableContainer {
+  background: #111828;
+  border-radius: 12px;
+  padding: 1em;
+  min-height: 453px;
+}

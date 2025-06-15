@@ -1,0 +1,92 @@
+.cardBottom svg {
+  font-size: 3rem;
+}
+.cardBottom svg {
+  color: #00ffd2 !important;
+}
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.cardBottom img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.pCard {
+  font-size: 30px;
+  color: #46afb1;
+  font-weight: bolder;
+}
+.cardPadding h3 {
+  font-weight: bolder;
+  color: var(--white-color);
+  font-size: 25px;
+}
+.cardsContainer h4 {
+  color: var(--white-color);
+}
+.cardPadding:hover {
+  cursor: pointer;
+  background-color: #37415a;
+}
+.cardPadding {
+  transition: all 0.2s ease-in-out;
+  padding: 1em;
+  background: var(--secondary-bg-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 15px;
+}
+.cardsContainer {
+  background: var(--secondary-background-color);
+  border-radius: 6px;
+  padding: 1em;
+  margin: 0 12px;
+}
+.cardsContainer .cardsMainContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 22px;
+  padding-top: 1em;
+}
+h6 {
+  color: var(--primary-heading-color);
+}
+h3 {
+  color: var(--primary-heading-color);
+}
+
+@media screen and (max-width: 1150px) {
+  .cardsContainer .cardsMainContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 22px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardPadding h3 {
+    font-size: 30px;
+  }
+  .cardPadding .row {
+    justify-content: center;
+    align-items: center;
+  }
+  .cardPadding .row h3 {
+    text-align: center;
+  }
+  .cardPadding .row .pCard {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cardsContainer .cardsMainContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

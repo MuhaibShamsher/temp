@@ -1,0 +1,19 @@
+{
+  "os": [
+    {
+      "name": "Microsoft Windows 10 1607",
+      "accuracy": "100",
+      "line": "69748",
+      "osclass": [
+        {
+          "type": "general purpose",
+          "vendor": "Microsoft",
+          "osfamily": "Windows",
+          "osgen": "10",
+          "accuracy": "100",
+          "cpe": ["cpe:/o:microsoft:windows_10:1607"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.barContainer h4{
+    color: var(--white-color);
+}
+
+.barContainer {
+    width: 100%;
+    min-width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary-background-color);
+    padding-inline:1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.barContainer canvas {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+
+
+
+    .gaugeArc {
+        fill:#fd513f !important;
+      }
+      .gaugeArcRef{
+        fill: #202938 !important;
+      }
+
+
+
+
+
+
+
+

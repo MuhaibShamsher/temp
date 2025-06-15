@@ -1,0 +1,21 @@
+.fileInputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+}
+
+.fileInputForm label {
+  padding: 0 5rem;
+  border: 2px dotted white;
+  text-align: center;
+  line-height: 20vw;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin: 5px 10px;
+}
+.file-input {
+  display: none;
+}
